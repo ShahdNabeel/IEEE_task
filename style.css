@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background: url(img1.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+}
+li a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+nav li{
+    margin: 5px;
+}
+li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.sec2{
+    padding: 100px;
+    color: white;
+}
+.sec2 h2{
+font-size: 50px;
+font-weight: 900;
+margin-bottom: 10px;
+}
+.btn1{
+    margin-top: 10px;
+    background-color: rgb(60, 60, 245);
+    border-radius: 20px;
+    border: 0px;
+    color: white;
+    padding: 10px;
+}
+.btn2{
+    background-color: transparent;
+    border-radius: 20px;
+    border-color: white;
+    color: white;
+    padding: 10px;
+}
+.section2{
+    padding: 40px;
+}
+.section2 h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.section2 p{
+    color: rgb(117, 116, 116);
+}
+.cont{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.cont a{
+    text-decoration: none;
+}
+.section3 h1{
+font-size: 42px;
+}
+.section3 p{
+    color: gray;
+}
+p a{
+    text-decoration: none;
+    color: gray;
+}
+.r1 img:hover{
+transition: 1s ease-in-out;
+transform: scale(1.1);
+}
+.r2 img:hover{
+    transition: 1s ease-in-out;
+    transform: scale(1.1);
+    }
+.s{
+    margin-left: 5%;
+}
+.r1,.r2{
+    display: flex;
+}
+.section4{
+    background-color: rgba(173, 172, 172, 0.533);
+    display: flex;
+    padding: 5%;
+}
+.ss{
+    margin-left: 10px;
+}
+.t{
+    display: flex;
+}
+.t svg{
+    width: 100px;
+    height: 100px;
+}
+.t .subt{
+    justify-items: left;
+    justify-content: left;
+}
+.subt h2{
+    font-size: 18px;
+}
+.subt p{
+    color: gray;
+    font-size: 12px;
+}
+.section5{
+    margin-top: 5%;
+}
+.first {
+    width: 30%;
+    margin-bottom: 40px;
+    overflow: hidden;
+    position: relative;
+    min-height: 300px;
+    border-radius: 7px;
+}
+
+.first.pic {
+    width: 100%;
+    height: 100%;
+}
+
+.first .second {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+.third {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+.first .pic img {
+    width: 100%;
+    height: 100%;
+    transition: .3s ease-in-out;
+}
+
+.first .second  {
+    background-color: #14141473;
+    font-size: 23px;
+    opacity: 0;
+    height: 0;
+    color: white;
+    transition: 1s  ease-in-out;
+}
+.third{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    transition: 3s  ease-in;
+    transition: all 2s ease;
+    top: 0;
+    left: -100%;
+    justify-content: center;
+    align-items: center;
+}
+.first:hover .pic img {
+    transform: scale(1.1);
+}
+.first:hover .second{
+    opacity: 1;
+    height: 100%;
+    transform: rotate(720deg);
+    
+}
+
+.first:hover .third{
+    left: 0;
+    transition-delay: 1s;
+}
+.picc{
+    margin: 2%;
+    display: flex;
+}
+.btn3{
+    background-color: transparent;
+    color: blue;
+    border-radius: 30px;
+    border-color: blue;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+.first{
+    margin: 5px;
+}
+.container {
+    height: 450px;
+    margin-top: 50px;
+    background-image: url(banner2.png);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity:0-1;
+}
+.container img{
+    margin-top: 80px;
+}
+.container p{
+    color: white;
+}
+.ll{
+    display: flex;
+    justify-content: space-around;
+}
+.foot{
+    color: white;
+    display: flex;
+}
+.social{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.social svg{
+    width: 10px;
+    height: 10px;
+    color: white;
+}
+.f,.f2,.f3,.f4{
+    margin-right: 8px;
+width: 25%;
+}
+footer{
+    background-color: rgba(30, 27, 27, 0.922);
+    padding: 20px;
+}
+footer p{
+    color: rgb(92, 92, 92);
+}
+p span{
+    color: white;
+}
